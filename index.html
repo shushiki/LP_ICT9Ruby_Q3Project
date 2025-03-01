@@ -9,7 +9,9 @@
 	<title>Choo choo train</title>
 
 	<style>
-		
+		body{
+			background-color: #ff9182;
+		}
 		li{
 			padding: 15px;
 		}
@@ -24,18 +26,18 @@
 <body>
 
 
-<nav class="navbar navbar-expand-md bg-dark navbar-dark fixed top">
+<nav class="navbar navbar-expand-md bg-danger navbar-dark fixed top">
 	<div class="container-fluid">
 		
 <a class="navbar-brand" href="#"> <img src="profile.png" alt="Profile" width="50px" height="50px" class="rounded-circle"> </a>
 		<div class="collapse navbar-collapse">
 			<ul class="navbar-nav me-auto">
 
-				<li class="nav-item"> <a href="index.html">  Home   </a> </li> 
+				<li class="nav-item"> <a href="index.html" class="nav-link text-white">  Home   </a> </li> 
 				<br>
-				<li class="nav-item"> <a href="p2.html">   Transit Schedule  </a>  </li>
+				<li class="nav-item"> <a href="p2.html" class="nav-link text-white">   Transit Schedule  </a>  </li>
 				<br>
-				<li class="nav-item"> <a href="p3.html">   Contacts & Feedback  </a>  </li>
+				<li class="nav-item"> <a href="p3.html" class="nav-link text-white">   Contacts & Feedback  </a>  </li>
 				<br>
 			</ul>
 
@@ -53,11 +55,11 @@
 
 <br>
 
-<div class="container-fluid" style="display: flex; justify-content: flex-start; align-items: center; gap: 121px; max-width: 80%; margin-left: 3%;">
+<div class="container-fluid" style="display: flex; justify-content: flex-start; align-items: center; gap: 140px; max-width: 90%; margin-left: 3%;">
 
-    <img src="transitmap.png" width="39%" height="39%" class="mx-left d-block img-thumbnail">
+    <img src="transitmap.png" width="35%" height="35%" class="mx-left d-block img-thumbnail">
 
-    <div style="display: flex; align-items: center; gap: 170px;">
+    <div style="display: flex; align-items: center; gap: 190px;">
         
         <div style="display: flex; flex-direction: column; text-align: center;">
             <div>
@@ -100,6 +102,8 @@
                     <select class="form-select" id="from">
                         <option>14.99</option>
                     </select>
+            <br>
+            <img src="ticket.png" width="200%" height="200%" class="mx-left d-block img-thumbnail">
                 </form>
         </div>
 
