@@ -9,44 +9,105 @@
 	<title>Choo choo train</title>
 
 	<style>
-		
+		body{
+			background-color: #ff9182;
+		}
 		li{
 			padding: 15px;
 		}
 
 		h1{
 			text-align: center;
+			background-color: #ffecad;
+			width: 70%;
+			margin: 0 auto;
+			padding: 5px;
+			border: 2px solid;
+			border-color: #c74442;
+			border-radius: 5px;
 		}
-
+		.custom-table {
+            width: 30%; 
+            max-width: 900px; 
+            margin: 0 auto;
+            padding: 10px;
+        }
 	</style>
 
 </head>
 <body>
 
 
-<nav class="navbar navbar-expand-md bg-dark navbar-dark fixed top">
+<nav class="navbar navbar-expand-md bg-danger navbar-dark fixed top">
 	<div class="container-fluid">
 		
-<a class="navbar-brand" href="#"> <img src="profile.png" alt="Profile" width="50px" height="50px" class="rounded-circle"> </a>
+<a class="navbar-brand" href="#"> <img src="icon.png" alt="Profile" width="50px" height="50px" class="rounded-circle"> </a>
 		<div class="collapse navbar-collapse">
 			<ul class="navbar-nav me-auto">
 
-				<li class="nav-item"> <a href="index.html">  Home   </a> </li> 
+				<li class="nav-item"> <a href="index.html" class="nav-link text-white">  Home   </a> </li> 
 				<br>
-				<li class="nav-item"> <a href="p2.html">   Transit Schedule  </a>  </li>
+				<li class="nav-item"> <a href="p2.html" class="nav-link text-white">   Transit Schedule  </a>  </li>
 				<br>
-				<li class="nav-item"> <a href="p3.html">   Contacts & Feedback  </a>  </li>
+				<li class="nav-item"> <a href="p3.html" class="nav-link text-white">   Contacts & Feedback  </a>  </li>
 				<br>
 			</ul>
 
 		<form class="d-flex">
 			<input class="form-control" type="text" placeholder="search...">
-			<button class="btn btn-success" type="button>Search">Search</button>
+			<button class="btn btn-warning" type="button>Search">Search</button>
 		</form>
 		</div>
 	</div>	
 </nav>
 
+<br>
+
+<h1>Fare guide</h1>
+
+<br>
+
+<table class="table custom-table"> 
+    <thead>
+        <tr>
+            <th>Day</th>
+            <th>Operating Hours (Roosevelt)</th>
+            <th>Operating Hours (Baclaran)</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Tuesday</td>
+            <td>5:00 AM – 11:00 PM</td>
+            <td>5:30 AM – 11:30 PM</td>
+        </tr>
+        <tr>
+            <td>Wednesday</td>
+            <td>5:00 AM – 11:00 PM</td>
+            <td>5:30 AM – 11:30 PM</td>
+        </tr>
+        <tr>
+            <td>Thursday</td>
+            <td>5:00 AM – 11:00 PM</td>
+            <td>5:30 AM – 11:30 PM</td>
+        </tr>
+        <tr>
+            <td>Friday</td>
+            <td>5:00 AM – 11:00 PM</td>
+            <td>5:30 AM – 11:30 PM</td>
+        </tr>
+        <tr>
+            <td>Sunday</td>
+            <td>5:00 AM – 11:00 PM</td>
+            <td>5:30 AM – 11:30 PM</td>
+        </tr>
+        <tr>
+            <td>Saturday</td>
+            <td>5:00 AM – 11:00 PM</td>
+            <td>5:30 AM – 11:30 PM</td>
+        </tr>
+    </tbody>
+</table>
 
 
 </body>
