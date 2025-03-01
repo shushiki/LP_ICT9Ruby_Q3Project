@@ -18,6 +18,13 @@
 
 		h1{
 			text-align: center;
+			background-color: #ffecad;
+			width: 70%;
+			margin: 0 auto;
+			padding: 5px;
+			border: 2px solid;
+			border-color: #c74442;
+			border-radius: 10px;
 		}
 
 	</style>
@@ -43,7 +50,7 @@
 
 		<form class="d-flex">
 			<input class="form-control" type="text" placeholder="search...">
-			<button class="btn btn-success" type="button>Search">Search</button>
+			<button class="btn btn-warning" type="button>Search">Search</button>
 		</form>
 		</div>
 	</div>	
@@ -63,7 +70,7 @@
         
         <div style="display: flex; flex-direction: column; text-align: center;">
             <div>
-                <h2>Leaving from:</h2>
+                <h3>Leaving from:</h3>
                 <form>
                     <select class="form-select" id="from">
                         <option>Roosevelt</option>
@@ -74,7 +81,7 @@
             <br>
 
             <div>
-                <h2>Going to:</h2>
+                <h3>Going to:</h3>
                 <form>
                     <select class="form-select" id="to">
                         <option>Baclaran</option>
@@ -83,8 +90,8 @@
             </div>
 
             <div style="display: flex; justify-content: center; gap: 10px; margin-top: 20px;">
-                <button type="button" class="btn btn-primary" onclick="regular_fare()">Regular Fare</button>
-                <button type="button" class="btn btn-secondary" onclick="discounted_fare()">Discounted Fare</button>
+                <button type="button" class="btn btn-secondary" onclick="regular_fare()">Regular Fare</button>
+                <button type="button" class="btn btn-warning" onclick="discounted_fare()">Discounted Fare</button>
             </div>
 
         </div>
