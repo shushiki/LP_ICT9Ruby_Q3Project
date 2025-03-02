@@ -7,33 +7,155 @@
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 
 	<title>Choo choo train</title>
+
+	<style>
+		body{
+			background-color: #ff9182;
+		}
+		li{
+			padding: 15px;
+		}
+
+		h1{
+			text-align: center;
+			background-color: #ffecad;
+			width: 70%;
+			margin: 0 auto;
+			padding: 5px;
+			border: 2px solid;
+			border-color: #c74442;
+			border-radius: 10px;
+		}
+
+		h4{
+			text-align: center;
+		}
+
+		h3{
+			text-align: center;
+		}
+
+		form{
+			align-content: center;
+			text-align: center;
+		}
+
+		h6{
+			text-align: center;
+		}
+
+		.a1{
+			width: 50%;
+			float: left;
+
+		}
+
+		.a2{
+			width: 50%;
+			float: right;
+		}
+
+		.b1{
+			border-radius: 45px;
+			border:0;
+			font-size: 25px;
+			font-weight: 600;
+			margin: 1rem 0;
+			padding: 25px;
+			text-transform: uppercase;
+			white-space: nowrap;
+			align-content: center;
+			text-align: center;
+			align-items: center;
+		}
+
+		.btn-danger{
+			background-color: peachpuff;
+			color: black;
+			border: 2px solid black;
+		}
+
+		.btn-danger:hover{
+			background: black;
+			color: #fff;
+		}
+
+		.btn-block{
+			width: 100%;
+			display: inline-block;
+		}
+
+	</style>
+
 </head>
 <body>
-	<nav class="navbar navbar-expand-md bg-dark navbar-dark fixed top">
+
+
+<nav class="navbar navbar-expand-md bg-danger navbar-dark fixed top">
 	<div class="container-fluid">
-<a class="navbar-brand" href="#"> <img src="profile.png" alt="Profile" width="50px" height="50px" class="rounded-circle"> </a>
+		
+<a class="navbar-brand" href="#"> <img src="icon.png" alt="Profile" width="50px" height="50px" class="rounded-circle"> </a>
 		<div class="collapse navbar-collapse">
 			<ul class="navbar-nav me-auto">
 
-				<li class="nav-item"> <a href="index.html">  Home   </a> </li> 
+				<li class="nav-item"> <a href="index.html" class="nav-link text-white">  Home   </a> </li> 
 				<br>
-				<li class="nav-item"> <a href="p2.html">   Transit Schedule  </a>  </li>
+				<li class="nav-item"> <a href="p2.html" class="nav-link text-white">   Transit Schedule  </a>  </li>
 				<br>
-				<li class="nav-item"> <a href="p3.html">   Contacts & Feedback  </a>  </li>
+				<li class="nav-item"> <a href="p3.html" class="nav-link text-white">   Contacts & Feedback  </a>  </li>
 				<br>
 			</ul>
 
 		<form class="d-flex">
 			<input class="form-control" type="text" placeholder="search...">
-			<button class="btn btn-success" type="button>Search">Search</button>
+			<button class="btn btn-warning" type="button>Search">Search</button>
 		</form>
 		</div>
 	</div>	
-</nav> 
+</nav>
 
-<h1>Contacts</h1>
+<br>
+
+<h1>Contacts & Feedback</h1>
+<h4> Leave a comment </h4>
+<br>
+
+
+<h3> Feedback </h3>
+<div class="form-check container">
+	<textarea class="form-control" rows="3" id="comment" placeholder="Type here. . ."></textarea>
+</div>
+
+<br>
+
+<div class="a1">
+	<h3> Name </h3>
+	<div class="form-check container">
+		<textarea class="form-control" rows="1" id="comment" placeholder="Type here. . ."></textarea>
+	</div>
+</div>
+
+<div class="a2">
+	<h3> Email </h3>
+	<div class="form-check container">
+		<textarea class="form-control" rows="1" id="comment" placeholder="Type here. . ."></textarea>
+	</div>
+</div>
+
+<br>
+<br>
 	
-<img src="transitmap.png">
-	
+<button class="btn btn-danger b1 btn-block" > Submit Feedback </button>
+
+<br>
+<br>
+<br>
+<br>
+
+<h1>Help</h1>
+<h6> For any assistance, feel free to contact us. </h6>
+
+<br>
+
 </body>
 </html>
